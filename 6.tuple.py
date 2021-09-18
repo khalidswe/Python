@@ -43,7 +43,21 @@ mytuple = tuple(rev_tuple)
 print(type(mytuple))
 
 # we can delete but it will delete full tuple
+'''
+del mytuple
+print(mytuple) #will not show any tuple
+'''
+game = mytuple  #unpack
+ 
+(cd,vl,*pbg) = game #asterisk
 
-##del mytuple
-##print(mytuple) #will not show any tuple
+print(cd)
+print(vl)
+print(pbg)
+
+(cd,*vl,pbg) = game #asterisk
+
+print(cd)
+print(vl)
+print(pbg)
 
