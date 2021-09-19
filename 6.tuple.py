@@ -1,7 +1,7 @@
 mytuple = ("cod","gta5","csgo","valorant","pubg",5,10.20)
 
 print(mytuple)
-
+'''
 print(type(mytuple))
 print(mytuple[2])
 print(mytuple[1:4])
@@ -43,10 +43,10 @@ mytuple = tuple(rev_tuple)
 print(type(mytuple))
 
 # we can delete but it will delete full tuple
-'''
+
 del mytuple
 print(mytuple) #will not show any tuple
-'''
+
 game = mytuple  #unpack
  
 (cd,vl,*pbg) = game #asterisk
@@ -60,4 +60,30 @@ print(pbg)
 print(cd)
 print(vl)
 print(pbg)
+'''
+#loop tuple
+'''
+for x in mytuple:
+   print(x,end=' ')
 
+for i in range(len(mytuple)): #same 
+    print(mytuple[i],end=' ')
+
+x=0
+while x < len(mytuple):
+    print(mytuple[x],end=' ')
+    x+=1
+'''
+#join tuple
+
+newtuple = ("khalid","sifullah")
+newtuple2 = ("shakib","mahmud")
+print(newtuple+newtuple2)
+
+#multiply join 
+print(newtuple*2) 
+
+'''
+count()	Returns the number of times a specified value occurs in a tuple
+index()	Searches the tuple for a specified value and returns the position of where it was found
+'''
