@@ -1,3 +1,4 @@
 first python programming from
 mateen's book : https://python.maateen.me/
 w3schools: https://www.w3schools.com/python/default.asp
+learnvern: https://www.learnvern.com/core-python-programming-tutorial
